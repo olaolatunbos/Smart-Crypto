@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return RepositoryProvider(
       create: (context) => CryptoRepository(),
       child: MaterialApp(
-        title: 'Flutter Crypto App',
+        title: 'Crypto App',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primaryColor: Colors.black,
