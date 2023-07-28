@@ -8,7 +8,8 @@ Informational Cryptocurrency App
 ## Features
 - API REST (Crypto Compare)
 - Live cryptocurrency prices
-- List of useful charts 
+- List of useful charts
+- In-depth information about cryptocurrencies
 
 
 ## Stack
