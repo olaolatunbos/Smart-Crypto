@@ -1,3 +1,4 @@
+import 'package:crypto_app/screens/splash_screen.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
           create: (context) => CryptoBloc(
             cryptoRepository: context.read<CryptoRepository>(),
           )..add(AppStarted()),
-          child: HomeScreen(),
+          child: SplashScreen(),
         ),
       ),
     );
