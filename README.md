@@ -2,7 +2,7 @@
 
 Informational Cryptocurrency App
 
-![Smart Crypto2](https://github.com/olaolatunbos/smart-crypto/assets/42249919/b0ab796c-8c59-4c54-89db-f8dd6ea87683)
+![Smart Crypto2](img/smart-crypto.png)
 
 ## Features
 
