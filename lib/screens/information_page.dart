@@ -6,9 +6,64 @@ class InformationPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Color(0xFF0E1A32),
+        // leading: Padding(
+        //   padding: const EdgeInsets.fromLTRB(15, 0, 0, 0),
+        //   child: Image.asset(
+        //     "img/Logo.png",
+        //     scale: 2.5,
+        //   ),
+        // ),
+        flexibleSpace: Padding(
+          padding: const EdgeInsets.fromLTRB(30, 65, 15, 0),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Color(0xFF1C3254),
+                ),
+                child: IconButton(
+                  hoverColor: Color(0xFF1649FF),
+                  icon: Icon(Icons.bookmark),
+                  color: Color(0xFFC0C9EA),
+                  onPressed: () {},
+                ),
+              ),
+            ],
+          ),
+        ),
+        // actions: [
+        //   Container(
+        //     width: 40,
+        //     height: 40,
+        //     decoration: BoxDecoration(
+        //       borderRadius: BorderRadius.circular(10),
+        //       color: Color(0xFF1C3254),
+        //     ),
+        //     child: IconButton(
+        //       hoverColor: Color(0xFF1649FF),
+        //       icon: Icon(Icons.notification_add),
+        //       color: Color(0xFFC0C9EA),
+        //       onPressed: () {
+        //         Navigator.push(context, MaterialPageRoute<void>(
+        //           builder: (BuildContext context) {
+        //             return InformationPage();
+        //           },
+        //         ));
+        //       },
+        //     ),
+        //   ),
+        // ],
+      ),
       backgroundColor: Color(0xFF0E1A32),
       body: Padding(
-        padding: const EdgeInsets.fromLTRB(35, 70, 0, 0),
+        padding: const EdgeInsets.fromLTRB(35, 20, 0, 0),
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
