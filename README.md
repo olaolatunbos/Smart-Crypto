@@ -2,7 +2,7 @@
 
 Informational Cryptocurrency App
 
-![Smart Crypto2](img/smart-crypto.png)
+![Smart Crypto2](img/smart-crypto-new2.png)
 
 ## Features
 
